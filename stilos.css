@@ -44,7 +44,7 @@
     line-height: 15px;
     background-color: rgb(2, 2, 98);
     position: absolute;
-    top: -20px;
+    bottom: -20px;
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
@@ -120,6 +120,7 @@ button{
 @media (max-width:576px){
     .main{
         flex-wrap: wrap;
+        flex-direction: column-reverse;
         width: 100%;
     }
     button{
@@ -129,5 +130,6 @@ button{
     .section2{
         width:100%;
         height: auto;
+        margin-bottom: 50px;
     }
 }
