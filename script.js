@@ -82,7 +82,7 @@ if(tarjetasDestapadas==1){
         tarjetasDestapadas=0;
 
         acierto++;
-    document.getElementById('aciertos').innerHTML='Acierto: '+acierto;
+    document.getElementById('aciertos').innerHTML='Aciertos: '+acierto;
 
     if(acierto==8){
         clearInterval(tiempoRegresivoId)
